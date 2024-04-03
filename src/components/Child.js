@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Child = ({ isLoggedIn, onLogin }) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
