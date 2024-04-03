@@ -1,22 +1,12 @@
-import react, { useState } from "react";
+import React from "react";
 import './../styles/App.css';
-import "./App.css";
-import ChildComponent from "./ChildComponent";
+import Parent from "./Parent";
 
 const App = () => {
-   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  const submitForm = (e) => {
-    e.preventDefault();
-    setIsLoggedIn(true);
-  };
   return (
     <div>
-         <h1>Parent Component</h1>
-      <div>
-          <ChildComponent isLoggedIn={isLoggedIn} submitForm={submitForm} />
-     
-      </div>
+       
+        <Parent></Parent>
     </div>
   )
 }
