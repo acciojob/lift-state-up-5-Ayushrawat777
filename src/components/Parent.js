@@ -3,7 +3,6 @@ import Child from "./Child";
 
 const Parent=()=>{
     const [isLoggedIn,setIsLoggedIn]=useState(false);
-
     const handleLogin=()=>{
         setIsLoggedIn(true);
     }
