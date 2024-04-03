@@ -5,7 +5,6 @@ import Parent from "./Parent";
 const App = () => {
   return (
     <div>
-       
         <Parent></Parent>
     </div>
   )
